@@ -36,3 +36,6 @@ with st.form('summarize_form', clear_on_submit=True):
 
 if len(result):
     st.info(response)
+
+# Display an image
+st.image('https://github.com/tpd911/langchain-text-summarization/raw/master/langchain-text-summarization.jpg', caption='Overview of the App', use_column_width=True)
